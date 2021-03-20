@@ -10,7 +10,7 @@ else:                   # ESP8266
 
 pair = [("ahtx0 temperature, humidity sensor", [0x38]),
         ("bmx temperature, humidity sensor ", [0x76,0x77]),
-        ("bh1750 light intensity sensor",[0x23]),
+        ("bh1750 light intensity sensor",[0x23,0x5C]),
         ("sht3x temperature, humidity sensor",[0x44,0x45]),
         ("sgp30 air quality sensor",[0x58]),
         ("sgp40 air quality sensor",[0x59]),
