@@ -16,7 +16,7 @@ pair = [("ahtx0 temperature, humidity sensor", [0x38]),
         ("sgp40 air quality sensor",[0x59]),
         ("scd30 CO2 sensor",[0x61]),
         ("tsl2561 light intensity sensor",[0x29,0x39,0x49]),
-        ("ssd130x display",[0x35,0x36]),
+        ("ssd130x display",[0x3C,0x3D]),
         ("ds1307 RTC",[0x68]),
        ]
 
