@@ -5,10 +5,10 @@ from sys import platform
 if platform == "esp32":
     pin_scl = 22
     pin_sda = 21
-elif platform == "esp8266":                  
+elif platform == "esp8266":
     pin_scl = 5
     pin_sda = 4
-    
+
 import bh1750fvi
 import tsl2561
 import bme280
@@ -153,8 +153,8 @@ def bus_scan(i2c,devices):
                     print("rtc initialized")
                     print("Date/Time = ",rtc.datetime)
                 except OSError:
-                    print("rtc doesn't respond")       
-        
+                    print("rtc doesn't respond")
+
 def main():
     print('Scan i2c bus...')
     devices = i2c.scan()
